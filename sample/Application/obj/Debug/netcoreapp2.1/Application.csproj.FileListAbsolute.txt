@@ -1,0 +1,9 @@
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Application.deps.json
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Application.dll
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Application.pdb
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.csprojAssemblyReference.cache
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.csproj.CoreCompileInputs.cache
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfoInputs.cache
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfo.cs
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.dll
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.pdb

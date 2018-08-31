@@ -1,0 +1,9 @@
+D:\GitProj\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.deps.json
+D:\GitProj\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.dll
+D:\GitProj\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.pdb
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.csprojAssemblyReference.cache
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.csproj.CoreCompileInputs.cache
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfoInputs.cache
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfo.cs
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.dll
+D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.pdb
