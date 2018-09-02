@@ -10,3 +10,14 @@ D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
 D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
 D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.dll
 D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.pdb
+D:\Project\MyGitProject\FSP\sample\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+D:\Project\MyGitProject\FSP\sample\Core\bin\Debug\netcoreapp2.1\Core.dll
+D:\Project\MyGitProject\FSP\sample\Core\bin\Debug\netcoreapp2.1\Core.pdb
+D:\Project\MyGitProject\FSP\sample\Core\bin\Debug\netcoreapp2.1\FSP.dll
+D:\Project\MyGitProject\FSP\sample\Core\bin\Debug\netcoreapp2.1\FSP.pdb
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.csprojResolveAssemblyReference.cache
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.dll
+D:\Project\MyGitProject\FSP\sample\Core\obj\Debug\netcoreapp2.1\Core.pdb

@@ -7,3 +7,11 @@ D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfoInputs.cache
 D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfo.cs
 D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.dll
 D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.pdb
+D:\Project\MyGitProject\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.deps.json
+D:\Project\MyGitProject\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.dll
+D:\Project\MyGitProject\FSP\src\FSP\bin\Debug\netstandard2.0\FSP.pdb
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.csproj.CoreCompileInputs.cache
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfoInputs.cache
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfo.cs
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.dll
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.pdb
