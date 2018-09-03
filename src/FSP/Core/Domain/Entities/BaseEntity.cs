@@ -4,11 +4,11 @@ using System.Text;
 
 namespace FSP.Core.Domain.Entities
 {
-    public class BaseEntity: BaseEntity<int> {
+    public class BaseEntity: BaseEntity<int>,IEntity {
     }
 
-    public class BaseEntity<TPremaryKey> : IEntity<TPremaryKey>
+    public class BaseEntity<TPrimaryKey> : IEntity<TPrimaryKey>
     {
-        public TPremaryKey Id { get; set; }
+        public TPrimaryKey Id { get; set; }
     }
 }

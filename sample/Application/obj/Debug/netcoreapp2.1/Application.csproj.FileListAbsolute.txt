@@ -24,3 +24,12 @@ D:\Project\MyGitProject\FSP\sample\Application\bin\Debug\netcoreapp2.1\Data.pdb
 D:\Project\MyGitProject\FSP\sample\Application\bin\Debug\netcoreapp2.1\Core.pdb
 D:\Project\MyGitProject\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.pdb
 D:\Project\MyGitProject\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.Datas.pdb
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Core.dll
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Data.dll
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.Datas.dll
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.dll
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Data.pdb
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\Core.pdb
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.pdb
+D:\GitProj\FSP\sample\Application\bin\Debug\netcoreapp2.1\FSP.Datas.pdb
+D:\GitProj\FSP\sample\Application\obj\Debug\netcoreapp2.1\Application.csproj.CopyComplete

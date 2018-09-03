@@ -31,3 +31,5 @@ D:\Project\MyGitProject\FSP\sample\Data\obj\Debug\netcoreapp2.1\Data.dll
 D:\Project\MyGitProject\FSP\sample\Data\obj\Debug\netcoreapp2.1\Data.pdb
 D:\Project\MyGitProject\FSP\sample\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
 D:\Project\MyGitProject\FSP\sample\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json
+D:\GitProj\FSP\sample\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.json
+D:\GitProj\FSP\sample\Data\bin\Debug\netcoreapp2.1\Data.runtimeconfig.dev.json

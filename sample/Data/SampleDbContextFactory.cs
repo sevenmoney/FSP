@@ -25,7 +25,7 @@ namespace Data
         public SampleDbContext CreateDbContext(string[] args) {
             var builder = new DbContextOptionsBuilder<SampleDbContext>();
             //var configuration
-            builder.UseSqlServer("Server=MrQ\\SQL2008; Database=FspSample;User ID=sa;Password=sa123456;");
+            builder.UseSqlServer("Server=XIEZHIPING\\SQL2008; Database=FspSample;User ID=sa;Password=sa123456;");
             return new SampleDbContext(builder.Options);
         }
     }
