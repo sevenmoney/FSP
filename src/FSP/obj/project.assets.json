@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "hMK+Nr0nV8j/bMIUA4DDv44SYl+QzbjKvDyPtY4h37c/f4Tfoxg0E7kxCG7apD4kwYU8vZ8IYA2yJX7Nlyo+mQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -177,23 +177,29 @@
   },
   "packageFolders": {
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "D:\\GitProj\\FSP\\src\\FSP\\FSP.csproj",
+      "projectUniqueName": "D:\\Project\\MyGitProject\\FSP\\src\\FSP\\FSP.csproj",
       "projectName": "FSP",
-      "projectPath": "D:\\GitProj\\FSP\\src\\FSP\\FSP.csproj",
+      "projectPath": "D:\\Project\\MyGitProject\\FSP\\src\\FSP\\FSP.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\GitProj\\FSP\\src\\FSP\\obj\\",
+      "outputPath": "D:\\Project\\MyGitProject\\FSP\\src\\FSP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

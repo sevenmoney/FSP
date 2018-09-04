@@ -15,3 +15,4 @@ D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.AssemblyInfo.cs
 D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.dll
 D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.pdb
 D:\GitProj\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.csprojAssemblyReference.cache
+D:\Project\MyGitProject\FSP\src\FSP\obj\Debug\netstandard2.0\FSP.csprojResolveAssemblyReference.cache
