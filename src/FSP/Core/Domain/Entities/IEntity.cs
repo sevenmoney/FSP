@@ -8,7 +8,7 @@ namespace FSP.Core.Domain.Entities
     {
     }
 
-    public interface IEntity<TPrmaryKey> {
-        TPrmaryKey Id { get; set; }
+    public interface IEntity<TPrimaryKey> {
+        TPrimaryKey Id { get; set; }
     }
 }
