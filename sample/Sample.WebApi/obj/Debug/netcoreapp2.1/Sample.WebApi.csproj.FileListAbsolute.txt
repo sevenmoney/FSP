@@ -1,0 +1,16 @@
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\Sample.WebApi.deps.json
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\Sample.WebApi.runtimeconfig.json
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\Sample.WebApi.runtimeconfig.dev.json
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\Sample.WebApi.dll
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\Sample.WebApi.pdb
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.csprojAssemblyReference.cache
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.csproj.CoreCompileInputs.cache
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.RazorAssemblyInfo.cache
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.RazorAssemblyInfo.cs
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.AssemblyInfoInputs.cache
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.AssemblyInfo.cs
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.RazorTargetAssemblyInfo.cache
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.dll
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\Sample.WebApi.pdb
+D:\GitProj\FSP\sample\Sample.WebApi\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\GitProj\FSP\sample\Sample.WebApi\bin\Debug\netcoreapp2.1\WebApi.xml

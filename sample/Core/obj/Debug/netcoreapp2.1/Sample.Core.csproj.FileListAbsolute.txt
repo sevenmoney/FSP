@@ -1,0 +1,12 @@
+D:\GitProj\FSP\sample\Core\bin\Debug\netcoreapp2.1\Sample.Core.deps.json
+D:\GitProj\FSP\sample\Core\bin\Debug\netcoreapp2.1\Sample.Core.dll
+D:\GitProj\FSP\sample\Core\bin\Debug\netcoreapp2.1\Sample.Core.pdb
+D:\GitProj\FSP\sample\Core\bin\Debug\netcoreapp2.1\FSP.dll
+D:\GitProj\FSP\sample\Core\bin\Debug\netcoreapp2.1\FSP.pdb
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.csprojAssemblyReference.cache
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.csproj.CoreCompileInputs.cache
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.AssemblyInfoInputs.cache
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.AssemblyInfo.cs
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.csproj.CopyComplete
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.dll
+D:\GitProj\FSP\sample\Core\obj\Debug\netcoreapp2.1\Sample.Core.pdb

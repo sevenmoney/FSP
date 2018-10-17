@@ -4334,51 +4334,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Application.dll": {}
-        }
-      },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "FSP": "1.0.0",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Extensions.Configuration.UserSecrets": "2.1.1"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
-      "Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Core": "1.0.0",
-          "FSP.Datas": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2"
-        },
-        "compile": {
-          "bin/placeholder/Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Data.dll": {}
-        }
-      },
       "FSP/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4401,6 +4356,51 @@
         },
         "runtime": {
           "bin/placeholder/FSP.Datas.dll": {}
+        }
+      },
+      "Sample.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Sample.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sample.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Application.dll": {}
+        }
+      },
+      "Sample.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FSP": "1.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.1",
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "Microsoft.Extensions.Configuration.UserSecrets": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Sample.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Core.dll": {}
+        }
+      },
+      "Sample.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FSP.Datas": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.2",
+          "Sample.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sample.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Data.dll": {}
         }
       }
     }
@@ -11561,21 +11561,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
-    },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
-    "Data/1.0.0": {
-      "type": "project",
-      "path": "../Data/Data.csproj",
-      "msbuildProject": "../Data/Data.csproj"
-    },
     "FSP/1.0.0": {
       "type": "project",
       "path": "../../src/FSP/FSP.csproj",
@@ -11585,14 +11570,29 @@
       "type": "project",
       "path": "../../src/FSP.Datas/FSP.Datas.csproj",
       "msbuildProject": "../../src/FSP.Datas/FSP.Datas.csproj"
+    },
+    "Sample.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Sample.Application.csproj",
+      "msbuildProject": "../Application/Sample.Application.csproj"
+    },
+    "Sample.Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Sample.Core.csproj",
+      "msbuildProject": "../Core/Sample.Core.csproj"
+    },
+    "Sample.Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Sample.Data.csproj",
+      "msbuildProject": "../Data/Sample.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Application >= 1.0.0",
-      "Data >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Sample.Application >= 1.0.0",
+      "Sample.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11625,11 +11625,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\GitProj\\FSP\\sample\\Application\\Application.csproj": {
-              "projectPath": "D:\\GitProj\\FSP\\sample\\Application\\Application.csproj"
+            "D:\\GitProj\\FSP\\sample\\Application\\Sample.Application.csproj": {
+              "projectPath": "D:\\GitProj\\FSP\\sample\\Application\\Sample.Application.csproj"
             },
-            "D:\\GitProj\\FSP\\sample\\Data\\Data.csproj": {
-              "projectPath": "D:\\GitProj\\FSP\\sample\\Data\\Data.csproj"
+            "D:\\GitProj\\FSP\\sample\\Data\\Sample.Data.csproj": {
+              "projectPath": "D:\\GitProj\\FSP\\sample\\Data\\Sample.Data.csproj"
             }
           }
         }

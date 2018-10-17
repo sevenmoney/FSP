@@ -1057,9 +1057,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitProj\\FSP\\sample\\Core\\Core.csproj",
-      "projectName": "Core",
-      "projectPath": "D:\\GitProj\\FSP\\sample\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\GitProj\\FSP\\sample\\Core\\Sample.Core.csproj",
+      "projectName": "Sample.Core",
+      "projectPath": "D:\\GitProj\\FSP\\sample\\Core\\Sample.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\GitProj\\FSP\\sample\\Core\\obj\\",
       "projectStyle": "PackageReference",

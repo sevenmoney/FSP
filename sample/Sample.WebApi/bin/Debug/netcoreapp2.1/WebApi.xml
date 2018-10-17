@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sample.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Sample.WebApi.Controllers.TestController">
+            <summary>
+            测试Api
+            </summary>
+        </member>
+        <member name="M:Sample.WebApi.Controllers.TestController.GetJson">
+            <summary>
+            测试GetJson
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

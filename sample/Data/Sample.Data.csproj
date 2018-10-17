@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\FSP.Datas\FSP.Datas.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Core\Sample.Core.csproj" />
   </ItemGroup>
 
 </Project>

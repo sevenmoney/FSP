@@ -1031,22 +1031,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "FSP": "1.0.0",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "Microsoft.Extensions.Configuration.UserSecrets": "2.1.1"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "FSP/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1069,6 +1053,22 @@
         },
         "runtime": {
           "bin/placeholder/FSP.Datas.dll": {}
+        }
+      },
+      "Sample.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "FSP": "1.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.1",
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "Microsoft.Extensions.Configuration.UserSecrets": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Sample.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sample.Core.dll": {}
         }
       }
     }
@@ -3756,11 +3756,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "FSP/1.0.0": {
       "type": "project",
       "path": "../../src/FSP/FSP.csproj",
@@ -3770,15 +3765,20 @@
       "type": "project",
       "path": "../../src/FSP.Datas/FSP.Datas.csproj",
       "msbuildProject": "../../src/FSP.Datas/FSP.Datas.csproj"
+    },
+    "Sample.Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Sample.Core.csproj",
+      "msbuildProject": "../Core/Sample.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Core >= 1.0.0",
       "FSP.Datas >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Sample.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3788,9 +3788,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitProj\\FSP\\sample\\Data\\Data.csproj",
-      "projectName": "Data",
-      "projectPath": "D:\\GitProj\\FSP\\sample\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\GitProj\\FSP\\sample\\Data\\Sample.Data.csproj",
+      "projectName": "Sample.Data",
+      "projectPath": "D:\\GitProj\\FSP\\sample\\Data\\Sample.Data.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\GitProj\\FSP\\sample\\Data\\obj\\",
       "projectStyle": "PackageReference",
@@ -3811,8 +3811,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\GitProj\\FSP\\sample\\Core\\Core.csproj": {
-              "projectPath": "D:\\GitProj\\FSP\\sample\\Core\\Core.csproj"
+            "D:\\GitProj\\FSP\\sample\\Core\\Sample.Core.csproj": {
+              "projectPath": "D:\\GitProj\\FSP\\sample\\Core\\Sample.Core.csproj"
             },
             "D:\\GitProj\\FSP\\src\\FSP.Datas\\FSP.Datas.csproj": {
               "projectPath": "D:\\GitProj\\FSP\\src\\FSP.Datas\\FSP.Datas.csproj"
