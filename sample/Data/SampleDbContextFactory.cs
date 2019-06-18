@@ -14,19 +14,31 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace Data
 {
     public class SampleDbContextFactory : IDesignTimeDbContextFactory<SampleDbContext>
     {
-        public SampleDbContext CreateDbContext(string[] args) {
-            var builder = new DbContextOptionsBuilder<SampleDbContext>();
-            //var configuration
-            builder.UseSqlServer("Server=XIEZHIPING\\SQL2008; Database=FspSample;User ID=sa;Password=sa123456;");
+        public SampleDbContext CreateDbContext(string[] args){
+            var builder = new DbContextOptionsBuilder<SampleDbContext>()
+                .UseSqlServer(BuidConfiguration().GetConnectionString("Default"));
             return new SampleDbContext(builder.Options);
+        }
+
+        /// <summary>
+        /// 获取站点根目录下appsettings.json配置
+        /// </summary>
+        /// <returns></returns>
+        private static IConfigurationRoot BuidConfiguration(){
+            var build = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            return build.Build();
         }
     }
 }

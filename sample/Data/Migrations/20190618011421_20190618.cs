@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class initel : Migration
+    public partial class _20190618 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
