@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using Application.Users;
+using Core.IRepositories;
 using Microsoft.AspNetCore.Mvc;
 using Sample.Web.Models;
 
@@ -10,6 +8,10 @@ namespace Sample.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IUserService _userService;
+        public HomeController(IUserService userService){
+            _userService = userService;
+        }
         public IActionResult Index()
         {
             return View();
@@ -18,8 +20,8 @@ namespace Sample.Web.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
-            return View();
+            var list = _userService.GetUsers();
+            return View(list);
         }
 
         public IActionResult Contact()

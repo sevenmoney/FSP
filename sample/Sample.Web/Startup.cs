@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Users;
+using Core.Entities;
+using Core.IRepositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -10,6 +13,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Data;
+using Data.Repositories;
+using FSP.Core.Domain.Repositories;
+using FSP.Datas.EfCore.ContextProvider;
+using FSP.Datas.EfCore.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Sample.Web
@@ -27,7 +34,7 @@ namespace Sample.Web
         public void ConfigureServices(IServiceCollection services)
         {
             //注册DbContext服务
-            var connectionString = Configuration.GetConnectionString("Default");
+            string connectionString = Configuration.GetConnectionString("Default");
             services.AddDbContext<SampleDbContext>(options=>options.UseSqlServer(connectionString));
 
             services.Configure<CookiePolicyOptions>(options =>
@@ -36,8 +43,9 @@ namespace Sample.Web
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
-
+            services.AddScoped<IDbContextProvider<SampleDbContext>, SimpleDbContextProvider<SampleDbContext>>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IUserService, UserService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
